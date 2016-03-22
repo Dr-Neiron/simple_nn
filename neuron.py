@@ -6,7 +6,7 @@ class Neuron:
     def __init__(self, activation_function):
         self.activation_function = activation_function
 
-    def set_akson(self, other_neuron, weight):
+    def set_axon(self, other_neuron, weight):
         self.axons.append((other_neuron, weight))
 
     def modify(self, amount):
