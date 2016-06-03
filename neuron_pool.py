@@ -49,6 +49,6 @@ class NeuronPool:
             neuron.process()
 
     def dump(self):
-        raise NotImplementedError
+        raise NotImplementedError()
 
 
